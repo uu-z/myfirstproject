@@ -1,0 +1,79 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "177b56be-ce9f-4793-ac6c-a0577601662a": {
+        "id": "177b56be-ce9f-4793-ac6c-a0577601662a",
+        "parent": null,
+        "name": "MyFirstProject.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyFirstProject.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "MyFirstProject"
+        },
+        "triggers": [],
+        "lastUpdated": 1655956121979,
+        "testCases": {
+          "c68cafc5-c04d-46bf-ba2f-87b09fe6688a": {
+            "id": "c68cafc5-c04d-46bf-ba2f-87b09fe6688a",
+            "functionId": "177b56be-ce9f-4793-ac6c-a0577601662a",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "177b56be-ce9f-4793-ac6c-a0577601662a"
+    ],
+    "currentFileId": "177b56be-ce9f-4793-ac6c-a0577601662a",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.11.0",
+    "projectName": "MyFirstProject",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "myfirstproject",
+      "url": "https://github.com/uu-z/myfirstproject"
+    }
+  }
+}
