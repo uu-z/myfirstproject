@@ -23,7 +23,7 @@
           "name": "MyFirstProject"
         },
         "triggers": [],
-        "lastUpdated": 1655956121979,
+        "lastUpdated": 1655957803154,
         "testCases": {
           "c68cafc5-c04d-46bf-ba2f-87b09fe6688a": {
             "id": "c68cafc5-c04d-46bf-ba2f-87b09fe6688a",
@@ -42,7 +42,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
